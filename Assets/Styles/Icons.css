@@ -1,0 +1,105 @@
+/* 
+    Created on : 17/03/2021, 17:12:28
+    Author     : kayan
+*/
+@font-face {
+    font-family: "wdp-project";
+    src:url("fonts/wdp-project.eot");
+    src:url("fonts/wdp-project.eot?#iefix") format("embedded-opentype"),
+        url("fonts/wdp-project.woff") format("woff"),
+        url("fonts/wdp-project.ttf") format("truetype"),
+        url("fonts/wdp-project.svg#wdp-project") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[data-icon]:before {
+    font-family: "wdp-project" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "wdp-project" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    position: relative;
+    top: .125em !Important;
+    margin-right: .4em !Important;
+}
+
+.icon-notext:before{
+    top: 0;
+    margin-right: 0 !Important;
+}
+
+/*
+ICONS
+*/
+.icon-facebook:before {
+    content: "\61";
+  }
+  .icon-instagram:before {
+    content: "\62";
+  }
+  .icon-search:before {
+    content: "\63";
+  }
+  .icon-youtube:before {
+    content: "\64";
+  }
+  .icon-success:before {
+    content: "\65";
+  }
+  .icon-alert:before {
+    content: "\66";
+  }
+  .icon-info:before {
+    content: "\67";
+  }
+  .icon-error:before {
+    content: "\68";
+  }
+  .icon-menu:before {
+    content: "\69";
+  }
+  .icon-mail:before {
+    content: "\6a";
+  }
+  .icon-user:before {
+    content: "\6b";
+  }
+  .icon-cart:before {
+    content: "\6c";
+  }
+  .icon-minus:before {
+    content: "\6d";
+  }
+  .icon-plus:before {
+    content: "\6e";
+  }
+  .icon-star-e:before {
+    content: "\6f";
+  }
+  .icon-broken:before {
+    content: "\70";
+  }  
+
+
+
